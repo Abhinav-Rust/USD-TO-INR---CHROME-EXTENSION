@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "USD to INR Real-time Converter",
+  "version": "1.0.0",
+  "description": "Automatically converts USD prices on web pages to INR in real-time.",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
