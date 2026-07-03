@@ -16,7 +16,10 @@ Designed specifically for developers and users browsing American websites, e-com
 
 Since this extension is not hosted on the Chrome Web Store, you can load it locally:
 
-1. **Get the files**: [Download the ZIP](https://github.com/Abhinav-Rust/usd-to-inr-chrome-extension/archive/refs/heads/main.zip) directly and extract it, or clone the repository using: `git clone https://github.com/Abhinav-Rust/usd-to-inr-chrome-extension.git`
+1. **Get the files**: [Download the ZIP](https://github.com/Abhinav-Rust/usd-to-inr-chrome-extension/archive/refs/heads/main.zip) directly and extract it, or clone the repository using the command below:
+   ```bash
+   git clone https://github.com/Abhinav-Rust/usd-to-inr-chrome-extension.git
+   ```
 2. Open Google Chrome and navigate to `chrome://extensions`.
 3. In the top-right corner, toggle **Developer mode** to **ON**.
 4. In the top-left corner, click **Load unpacked**.
